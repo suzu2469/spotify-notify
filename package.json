@@ -1,0 +1,20 @@
+{
+  "name": "spotify-notify",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled",
+    "start": "wrangler dev --test-scheduled"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "@types/node": "^20.8.5",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.60"
+  }
+}
